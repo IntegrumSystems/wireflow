@@ -2,7 +2,7 @@
 | --- | --- | --- |
 | <img src=./images/sample_top.png> | <img src=./images/sample_bot.png> | <img src=./images/sample_all.png> |
 
-# pcbflow - Python PCB layout and design (based on CuFlow)
+# wireflow - Python 3DPCB layout and design for ISCI3D Printers
 
 ![python version](https://img.shields.io/static/v1?label=python&message=3.9%2B&color=blue&style=flat&logo=python)
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>  
@@ -12,9 +12,9 @@
 ![https://github.com/michaelgale/pcbflow/issues](https://img.shields.io/github/issues/michaelgale/pcbflow.svg?style=flat)
 
 
-This repository contains a python based Printed Circuit Board (PCB) layout and design package based on [CuFlow](https://github.com/jamesbowman/cuflow) by James Bowman.
+This repository contains a python based Printed Circuit Board (PCB) layout and design package based on [pcbflow](https://github.com/michaelgale/pcbflow) by Michael Gale which in turn is a fork of [CuFlow](https://github.com/jamesbowman/cuflow) by James Bowman.
 
-This implementation is an experimental variation of CuFlow.  It attempts to modularize the components of CuFlow and extend/modify its functionality in some key areas:
+The pcbflow implementation is an experimental variation of CuFlow.  It attempts to modularize the components of CuFlow and extend/modify its functionality in some key areas:
 
 - allow component placement on top or bottom (automatically chooses top or bottom companion layers of silkscreen, soldermask, copper)
 - allow customization of track widths, drill/hole types
@@ -25,7 +25,7 @@ This implementation is an experimental variation of CuFlow.  It attempts to modu
 - more export formats including stylized views for SVG, PNG, PDF
 - integration with [SKiDL](https://github.com/xesscorp/skidl) for complete scripted EDA workflow
 
-This implementation is alpha and not fully documented.
+This implementation is torn down and reconstructed to conform to the constraints of the [isci3d](https://github.com/IntegrumSystems/isci3d) project.
 
 ## Requirements
 
